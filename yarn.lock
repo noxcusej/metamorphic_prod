@@ -957,9 +957,19 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     "to-fast-properties" "^2.0.0"
 
-"@babylonjs/core@^5.41.0":
+"@babylonjs/core@^5.22.0", "@babylonjs/core@^5.41.0":
   "integrity" "sha512-PrY12n9IOql+9P/bFhEI7WTUqneTI0W9+ROKkwallqtTYku3XV7O5E7BXpdLJwrB/VufKApu6ErNoUb9Zhj9Cg=="
   "resolved" "https://registry.npmjs.org/@babylonjs/core/-/core-5.41.0.tgz"
+  "version" "5.41.0"
+
+"@babylonjs/gui@^5.41.0":
+  "integrity" "sha512-eWoAb/TLM1+ANHVjSSx8VW6BfjCr6CTnQwKonKaOUcXtkjm0W0eAAd2BTTYbV3a5KoYxAnrYtZJT9YcxSPWG6Q=="
+  "resolved" "https://registry.npmjs.org/@babylonjs/gui/-/gui-5.41.0.tgz"
+  "version" "5.41.0"
+
+"@babylonjs/loaders@^5.41.0":
+  "integrity" "sha512-a4zHmmk26Cn22S3eL+wkY2pRCFB2pLmBNHZ0CTD+Xv0S4Ctdj3HHC1Q+lgO3z7I40uM8jb5xdoG0+uTIwTm+RQ=="
+  "resolved" "https://registry.npmjs.org/@babylonjs/loaders/-/loaders-5.41.0.tgz"
   "version" "5.41.0"
 
 "@eslint/eslintrc@^0.4.3":
@@ -1694,6 +1704,11 @@
   optionalDependencies:
     "prettier" "^1.18.2 || ^2.0.0"
 
+"@vue/devtools-api@^6.4.5":
+  "integrity" "sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ=="
+  "resolved" "https://registry.npmjs.org/@vue/devtools-api/-/devtools-api-6.4.5.tgz"
+  "version" "6.4.5"
+
 "@vue/eslint-config-typescript@^9.1.0":
   "integrity" "sha512-j/852/ZYQ5wDvCD3HE2q4uqJwJAceer2FwoEch1nFo+zTOsPrbzbE3cuWIs3kvu5hdFsGTMYwRwjI6fqZKDMxQ=="
   "resolved" "https://registry.npmjs.org/@vue/eslint-config-typescript/-/eslint-config-typescript-9.1.0.tgz"
@@ -2131,6 +2146,11 @@
   "version" "0.4.1"
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.3"
+
+"babylonjs-gltf2interface@^5.22.0":
+  "integrity" "sha512-+aARV7Q6rxLxKnLX7aqe2klaPHzg6c5JBtsadpSAfMLL9laF3e7YqfTlPR6Zf7XxsAZGJBxU9BULLvC5R3BapA=="
+  "resolved" "https://registry.npmjs.org/babylonjs-gltf2interface/-/babylonjs-gltf2interface-5.41.0.tgz"
+  "version" "5.41.0"
 
 "balanced-match@^1.0.0":
   "integrity" "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="
@@ -6078,6 +6098,13 @@
     "hash-sum" "^2.0.0"
     "loader-utils" "^2.0.0"
 
+"vue-router@^4.1.6":
+  "integrity" "sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ=="
+  "resolved" "https://registry.npmjs.org/vue-router/-/vue-router-4.1.6.tgz"
+  "version" "4.1.6"
+  dependencies:
+    "@vue/devtools-api" "^6.4.5"
+
 "vue-style-loader@^4.1.0", "vue-style-loader@^4.1.3":
   "integrity" "sha512-sFuh0xfbtpRlKfm39ss/ikqs9AbKCoXZBpHeVZ8Tx650o0k0q/YCM7FRvigtxpACezfq6af+a7JeqVTWvncqDg=="
   "resolved" "https://registry.npmjs.org/vue-style-loader/-/vue-style-loader-4.1.3.tgz"
@@ -6091,7 +6118,7 @@
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@*", "vue@^2 || ^3.2.13", "vue@^3.2.13", "vue@3.2.45":
+"vue@*", "vue@^2 || ^3.2.13", "vue@^3.2.0", "vue@^3.2.13", "vue@3.2.45":
   "integrity" "sha512-9Nx/Mg2b2xWlXykmCwiTUCWHbWIj53bnkizBxKai1g61f2Xit700A1ljowpTIM11e3uipOeiPcSqnmBg6gyiaA=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.45.tgz"
   "version" "3.2.45"
